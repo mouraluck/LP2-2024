@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.util.Scanner;
-import java.lang.Math;
 
 public class e1019 {
     public static void main(String[] args) throws IOException {
@@ -11,6 +10,6 @@ public class e1019 {
         System.out.print(h/60+":");
         int sec_sobra = h % 60;
         System.out.print(sec_sobra+"\n");
-        
+        s.close();
     }
 }
